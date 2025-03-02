@@ -38,13 +38,13 @@ python3 encryptedim.py --c 127.0.0.1 --confkey 'your_conf_key' --authkey 'your_a
 ```
 3. Type messages in either terminal. Press CTRL-C or CTRL-D to exit.
 
-Example:
-# Terminal 1 (Server):
+### Example:
+Terminal 1 (Server):
 ```
 python3 encryptedim.py --s --confkey 'foo' --authkey 'bar'
 ```
 
-# Terminal 2 (Client):
+Terminal 2 (Client):
 ```
 python3 encryptedim.py --c 127.0.0.1 --confkey 'foo' --authkey 'bar'
 ```
